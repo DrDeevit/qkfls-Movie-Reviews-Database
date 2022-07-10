@@ -1,7 +1,7 @@
 ---
 applications:
  - name: movies-reviews-database-60d
-   random-route: false
+   random-route: true
    memory: 128M
    services:
    - Cloudant-l5
