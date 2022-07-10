@@ -1,0 +1,16 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.eu-de.cf.cloud.ibm.com",
+      "Org": "TestDeev",
+      "Space": "dev"
+    },
+    "Name": "movies-reviews-database-bab",
+    "Instrumentation": {
+      "domain": "eu-de.mybluemix.net"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
